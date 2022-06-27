@@ -5,10 +5,11 @@ The purpose of this project is to analyze data that can aid in predicting the mp
 
 ## Linear Regression to Predict MPG
 <img width="505" alt="Screen Shot 2022-06-26 at 8 37 19 PM" src="https://user-images.githubusercontent.com/100797549/175855444-6f8eebb9-9971-41a1-a6e2-eb30b4eca2af.png">
+<img width="442" alt="Screen Shot 2022-06-26 at 8 56 21 PM" src="https://user-images.githubusercontent.com/100797549/175858932-24ff3b6a-a58c-49c5-aae6-4cda511757b9.png">
+
 The MechaCar dataset has a sample size of 50 prototypes measuring the miles per gallon. The linear regression was calcualted using R in RStudio, looking at the facts we know that the variance of a non- random variable lies at about zerp, the intercept, vehicle_length and ground clearance are closer to this value which can equate to being a non-random amount of variance to the mpg values. Also while taking a look at the p-value and having a significance level of 95% we see that the mpg is greater than 0.05 as well the two other variables. The vehicle length and the ground clearance which determines that this data represents non-random amounts of variance as applied to the mpg values. 
 
 While looking at the linear regression model we also noted that all of the slopes of the variables are fairly close to zero however they do not equal zero, which results in a non-zero slope.
-<img width="524" alt="Screen Shot 2022-06-26 at 8 50 09 PM" src="https://user-images.githubusercontent.com/100797549/175856522-8c7344ac-b953-44fa-9c13-4c2ea1d26690.png">
 <img width="442" alt="Screen Shot 2022-06-26 at 8 56 21 PM" src="https://user-images.githubusercontent.com/100797549/175858757-5835901a-5bbd-4472-bfef-9fa9ffefb3ad.png">
 Since this linear model had a r-squared slope of 0.71 we can assume that more than half of all mpg predictins will be determined by this model. And although that is a high percentage, it is not 100% accruate that it can predict mpgs of MechaCar prototypes effectively. 
 
