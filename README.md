@@ -9,12 +9,12 @@ The MechaCar dataset has a sample size of 50 prototypes measuring the miles per 
 
 While looking at the linear regression model we also noted that all of the slopes of the variables are fairly close to zero however they do not equal zero, which results in a non-zero slope.
 <img width="524" alt="Screen Shot 2022-06-26 at 8 50 09 PM" src="https://user-images.githubusercontent.com/100797549/175856522-8c7344ac-b953-44fa-9c13-4c2ea1d26690.png">
-
+<img width="442" alt="Screen Shot 2022-06-26 at 8 56 21 PM" src="https://user-images.githubusercontent.com/100797549/175858757-5835901a-5bbd-4472-bfef-9fa9ffefb3ad.png">
 Since this linear model had a r-squared slope of 0.71 we can assume that more than half of all mpg predictins will be determined by this model. And although that is a high percentage, it is not 100% accruate that it can predict mpgs of MechaCar prototypes effectively. 
 
 ## Summary Statistics on Suspension Coils
 <img width="305" alt="Screen Shot 2022-06-26 at 8 55 39 PM" src="https://user-images.githubusercontent.com/100797549/175856992-028e4d5e-03ea-4bee-8d42-db8744054a51.png">
-<img width="305" alt="Screen Shot 2022-06-26 at 8 55 39 PM" src="https://user-images.githubusercontent.com/100797549/175857060-e7356621-9d58-44bc-9ffc-8bdf16043ab6.png">
+
 The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.By looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is within the 100 PSI variance requirement.In total, the manufacturing data meets the maximum variance in PSI requirement, but we can see that there are clearly big problems in lot 3 with a variance of 170 PSI. Lot 3 does not meet the maximum variance requirement.
 
 ## T-Test on Suspension Coils
